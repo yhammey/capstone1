@@ -117,7 +117,8 @@ img[alt*="contact"] {
 .footer-page {
     background-color: rgb(52, 58, 64);
     width: 100%;
-    min-height: 80px;
+    min-height: 300px;
+    display: flex;
 }
 
 .footer-tab {
@@ -168,14 +169,27 @@ img[alt*="social"] {
     background-color: rgb(43, 48, 53);
     min-height: 45px;
     width: 100%;
-    color: white;
 }
 
-.myname {
+.copyright > small {
+    color: white;
     position: relative;
     top: 10px;
-    left: 115px;
+    left: 600px;
 }
+
+.footer-page > div {
+    border: 1px solid white;
+}
+
+.signup > .box {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    text-align: center;
+}
+
 
 /*img[alt*="arrow"] {
     width: 30px;
@@ -239,6 +253,7 @@ img[alt*="contact"] {
 
     .right-container {
         min-width: 400px;
+        height: 700px;
         margin: auto;
         background-color: rgb(52, 58, 64);
         padding-right: 0px;
