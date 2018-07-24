@@ -104,3 +104,13 @@ $(document).ready(function () {
     }
 
 });
+
+var iframe = $('<iframe />');
+iframe.prop('src', 'https://maps.google.com/maps?q=London&hl=en&sll=37.0625,-95.677068&sspn=46.677964,93.076172&t=h&hnear=London,+United+Kingdom&z=10');
+iframe.appendTo($('body'));
+
+
+// When the iframe loads:
+iframe.load(function() {
+    alert(1);
+});
