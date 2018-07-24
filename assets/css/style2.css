@@ -180,7 +180,7 @@ img[alt="home"] {
     margin-right: 5px;
     color: white;
     text-align: center;
-}*/*/
+}*/
 
 .about-container {
     position: absolute;
@@ -563,9 +563,11 @@ ul {
     position: relative;
     top: 380px;
     left: 940px;
+    display: inline-block;
 }
 
 .line-text-container {
+         width: 100vw;
         line-height: 25px;
 }
 
@@ -941,7 +943,7 @@ iframe {
 @media only screen and (max-width: 375px) {
 
 .navlogo {
-        position: absolute;
+    position: absolute;
     top: 0px;
     left: -16px;
     float: left;
@@ -1252,7 +1254,7 @@ iframe {
     height: 40px;
     background-color: rgb(43, 48, 53);
     position: absolute;
-    top: 1024px;
+    bottom: -700px;
     color: white;
     font-size: 10px;
     display: block;
@@ -1361,6 +1363,7 @@ iframe {
     background-repeat: no-repeat;
     background-size: cover;*/
 }
+
 
 .landing-page-content {
     width: 100%;
