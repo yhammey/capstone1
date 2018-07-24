@@ -940,7 +940,12 @@ iframe {
 
 
 /*mobile styles*/
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 720px) {
+
+#search-nav {
+    position: absolute;
+    left: 0px;
+}
 
 .navlogo {
     position: absolute;
@@ -1128,7 +1133,7 @@ iframe {
 }
 
 
-.facebook, .instagram, .tweet {
+.facebook-btn, .instagram-btn, .tweet-btn {
     width: 100%;
     height: 37px;
     transition: 0.8s;
@@ -1138,7 +1143,7 @@ iframe {
 /*    border: 1px solid white;*/
 }
 
-.fb-logo, .ig-logo, .twitter-logo {
+.fb-logo1, .ig-logo1, .twitter-logo1 {
     position: absolute;
     top: 10px;
     left: 25px;
@@ -1150,17 +1155,17 @@ iframe {
     display: block;
 }
 
-.content-strip:hover .fb-logo{
+.content-strip:hover .fb-logo1{
     opacity: 1;
     transition: 0.8s;
 }
 
-.content-strip:hover .ig-logo{
+.content-strip:hover .ig-logo1{
     opacity: 1;
     transition: 0.8s;
 }
 
-.content-strip:hover .twitter-logo{
+.content-strip:hover .twitter-logo1{
     opacity: 1;
     transition: 0.8s;
 }
@@ -1183,7 +1188,7 @@ iframe {
     opacity: 0.2;
 }
 
-#home-btn, #about-btn, #search-btn, #phone-btn {
+#home-btn-nav, #about-btn-nav, #search-btn-nav, #phone-btn-nav {
     width: 100%;
     height: 50px;
     transition: 0.8s;
@@ -1193,7 +1198,7 @@ iframe {
 /*    border: 1px solid white;*/
 }
 
-.home-logo, .about-logo, .search-logo, .phone-logo {
+.home-logo-nav, .about-logo-nav, .search-logo-nav, .phone-logo-nav {
     position: absolute;
     top: 18px;
     left: 25px;
@@ -1205,45 +1210,45 @@ iframe {
     display: block;
 }
 
-.content-strip:hover .home-logo{
+.content-strip:hover .home-logo-nav{
     opacity: 1;
     transition: 0.8s;
 }
 
-.content-strip:hover .about-logo{
+.content-strip:hover .about-logo-nav{
     opacity: 1;
     transition: 0.8s;
 }
 
-.content-strip:hover .search-logo{
+.content-strip:hover .search-logo-nav{
     opacity: 1;
     transition: 0.8s;
 }
 
-.content-strip:hover .phone-logo{
+.content-strip:hover .phone-logo-nav{
     opacity: 1;
     transition: 0.8s;
 }
 
-#home-btn:hover {
+#home-btn-nav:hover {
     background-color: #49515b;
     transition: 0.1s;
     opacity: 0.2;
 }
 
-#about-btn:hover {
+#about-btn-nav:hover {
     background-color: #49515b;
     transition: 0.1s;
     opacity: 0.2;
 }
 
-#search-btn:hover {
+#search-btn-nav:hover {
     background-color: #49515b;
     transition: 0.1s;
     opacity: 0.2;
 }
 
-#phone-btn:hover {
+#phone-btn-nav:hover {
     background-color: #49515b;
     transition: 0.1s;
     opacity: 0.2;
@@ -1284,7 +1289,7 @@ iframe {
 
 
 /*tablet styles*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 719px) and (max-width: 960px) {
 
 .about-img {
     width: 100%;
